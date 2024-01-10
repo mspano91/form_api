@@ -2,6 +2,6 @@ const { Router } = require("express");
 
 const mainRouter = Router();
 
-mainRouter.request("/", "hello world");
+mainRouter.get("/", "aca va el handler");
 
 module.exports = mainRouter;
